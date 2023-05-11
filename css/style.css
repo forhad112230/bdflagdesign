@@ -1,0 +1,104 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1800px;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 700px;
+	height: 400px;
+	background-color: green;
+	position: relative;
+	margin: 0 auto; 
+
+}
+.red{
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	border: 1px solid black;
+	/*bottom: ;
+	right: ;
+	*/
+
+}
+.yellow{
+	width: 180px;
+	height: 180px;
+	background: yellow;
+	position: fixed;
+	top: 0%;
+	right: 0%;
+
+}
+.fb{
+	width: 100px;
+	position: fixed;
+	top: 33%;
+	right: -3%;
+	transition: 1sc;
+
+}
+.fb:hover{
+	right:4px;
+	cursor: pointer;
+
+}
+.twitter{
+	width: 100px;
+	position: fixed;
+	top: 39%;
+	right: -3%;
+	transition: 1sc;
+}
+.twitter:hover{
+	right:4px;
+	cursor: pointer;
+}
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 100px 0px 0px;
+
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px; 
+	font-size: 40px;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	margin: 0px 15px; 
+	border-radius: 100%;
+	transition: 1s;   
+}
+.social-icons li a:hover{
+	background: black;
+	color: white;
+
+}
